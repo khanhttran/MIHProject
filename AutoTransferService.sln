@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTransferService", "AutoTransferService\AutoTransferService.csproj", "{B9232582-BEF9-4080-8FD5-A8F8D5F4E90B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTransferService.Web", "AutoTransferService.Web\AutoTransferService.Web.csproj", "{7C2DB734-3C4B-413C-93C6-FF5DD87DB3A7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AutoTransferService.Setup", "AutoTransferService.Setup\AutoTransferService.Setup.vdproj", "{E0B8174F-85F2-460B-AFEA-7BBD32B553F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTransferService.Logic", "AutoTransferService.Logic\AutoTransferService.Logic.csproj", "{B5A20B93-6BEC-4184-82A2-B7969F49C332}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9232582-BEF9-4080-8FD5-A8F8D5F4E90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9232582-BEF9-4080-8FD5-A8F8D5F4E90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9232582-BEF9-4080-8FD5-A8F8D5F4E90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9232582-BEF9-4080-8FD5-A8F8D5F4E90B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2DB734-3C4B-413C-93C6-FF5DD87DB3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2DB734-3C4B-413C-93C6-FF5DD87DB3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2DB734-3C4B-413C-93C6-FF5DD87DB3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2DB734-3C4B-413C-93C6-FF5DD87DB3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B8174F-85F2-460B-AFEA-7BBD32B553F5}.Debug|Any CPU.ActiveCfg = Debug
+		{E0B8174F-85F2-460B-AFEA-7BBD32B553F5}.Release|Any CPU.ActiveCfg = Release
+		{B5A20B93-6BEC-4184-82A2-B7969F49C332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A20B93-6BEC-4184-82A2-B7969F49C332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A20B93-6BEC-4184-82A2-B7969F49C332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A20B93-6BEC-4184-82A2-B7969F49C332}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tgssvrteam:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AutoTransferService.Logic\\AutoTransferService.Logic.csproj
+		SccProjectName1 = AutoTransferService.Logic
+		SccLocalPath1 = AutoTransferService.Logic
+		SccProjectUniqueName2 = AutoTransferService.Setup\\AutoTransferService.Setup.vdproj
+		SccProjectName2 = AutoTransferService.Setup
+		SccLocalPath2 = AutoTransferService.Setup
+		SccProjectUniqueName3 = AutoTransferService.Web\\AutoTransferService.Web.csproj
+		SccProjectName3 = AutoTransferService.Web
+		SccLocalPath3 = AutoTransferService.Web
+		SccProjectUniqueName4 = AutoTransferService\\AutoTransferService.csproj
+		SccProjectName4 = AutoTransferService
+		SccLocalPath4 = AutoTransferService
+	EndGlobalSection
+EndGlobal
